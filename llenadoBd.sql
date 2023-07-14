@@ -59,6 +59,11 @@ VALUES
   (15, 'José', 'Ramírez', 'Soto', 5432, 'jose.ramirez@example.com', 2, 'Asistente'),
   (15, 'Sara', 'González', 'Flores', 1098, 'sara.gonzalez@example.com', 2, 'Asistente');
   
+  INSERT INTO empleados (cod_oficina, nombre_empleado, apellido1_empleado, apellido2_empleado, extension_empleado, email_empleado, codigo_jefe, puesto_empleado)
+VALUES(12,'David','Vargas','soto',2233,'davidvs@gmail.com',null,'Representante de ventas');
+  
+  
+  
   select * from clientes;
   INSERT INTO clientes (nombre_cliente, nombre_contacto, apellido_contacto, telefono, fax, direccion1, direccion2, ciudad, region, pais, codigo_postal, limite_credito, codigo_empleado)
 VALUES
@@ -115,6 +120,6 @@ insert into DetallesPedidos (cantidad, precio_unitario, codigo_pedido, codigo_pr
 insert into DetallesPedidos (cantidad, precio_unitario, codigo_pedido, codigo_producto) values (63, 444943.4, 4, 2);
 
 
-
-
-
+update empleados
+set codigo_jefe=7
+where codigo_empleado=42 or codigo_empleado=50;
