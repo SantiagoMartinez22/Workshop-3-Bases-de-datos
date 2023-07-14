@@ -62,7 +62,7 @@ VALUES
   INSERT INTO empleados (cod_oficina, nombre_empleado, apellido1_empleado, apellido2_empleado, extension_empleado, email_empleado, codigo_jefe, puesto_empleado)
 VALUES(12,'David','Vargas','soto',2233,'davidvs@gmail.com',null,'Representante de ventas');
 INSERT INTO empleados (cod_oficina, nombre_empleado, apellido1_empleado, apellido2_empleado, extension_empleado, email_empleado, codigo_jefe, puesto_empleado)
-VALUES(11,'Andrea','Vargas','soto',2433,'andreadvs@gmail.com',null,'Representante de ventas');
+VALUES(11,'Andres','Vargas','soto',2433,'andreadvs@gmail.com',null,'Representante de ventas');
   
   
   
@@ -95,6 +95,10 @@ VALUES
   (5, 'PayPal', '2023-07-10', 80.30);
 	INSERT INTO pago (codigo_cliente, forma_pago, fecha_pago, total_x_pago)
 	VALUES (2, 'PayPal', '2008-07-10', 103.30);
+    INSERT INTO pago (codigo_cliente, forma_pago, fecha_pago, total_x_pago)
+	VALUES (1, 'PayPal', '2009-07-11', 503.30);
+    INSERT INTO pago (codigo_cliente, forma_pago, fecha_pago, total_x_pago)
+	VALUES (2, 'PayPal', '2009-06-12', 403.30);
 
 
 INSERT INTO pedidos (codigo_cliente, fecha_pedido, fecha_esperada, fecha_entregada, estado, comentarios)
