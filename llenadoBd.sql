@@ -61,6 +61,8 @@ VALUES
   
   INSERT INTO empleados (cod_oficina, nombre_empleado, apellido1_empleado, apellido2_empleado, extension_empleado, email_empleado, codigo_jefe, puesto_empleado)
 VALUES(12,'David','Vargas','soto',2233,'davidvs@gmail.com',null,'Representante de ventas');
+INSERT INTO empleados (cod_oficina, nombre_empleado, apellido1_empleado, apellido2_empleado, extension_empleado, email_empleado, codigo_jefe, puesto_empleado)
+VALUES(11,'Andrea','Vargas','soto',2433,'andreadvs@gmail.com',null,'Representante de ventas');
   
   
   
